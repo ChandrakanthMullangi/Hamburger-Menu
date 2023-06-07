@@ -1,0 +1,44 @@
+/* Write your CSS here */
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-image {
+  width: auto;
+  height: 250px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-image {
+    height: 500px;
+  }
+}
+
+.not-found-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-heading {
+    font-size: 36px;
+  }
+}
+
+.not-found-description {
+  font-family: Roboto;
+  font-size: 16px;
+  color: #616e7c;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-description {
+    font-size: 24px;
+  }
+}
